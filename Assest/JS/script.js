@@ -25,7 +25,7 @@ myButton.addEventListener('click', (event)=> {
         
         let responsElement = document.createElement('h2');
         responsElement.innerText = 'Tak for tilmelding';
-        responsElement.id = 
+        responsElement.id = 'tak';
         formParent.appendChild (responsElement); 
     }
     

@@ -20,6 +20,7 @@ body{
     font-weight: 300;
     width: 50vw;
     height: 100vw;
+    margin: auto;
 }
 h1{
     font-weight: 600;
@@ -43,6 +44,7 @@ form{
     padding: 0.5rem;
     border: 2px solid var(--knapper);
     border-radius: 0.6rem;
+    margin-top: 5vw;
 }
 
 form input, form textarea{
@@ -81,6 +83,7 @@ form button{
     border-radius: 0.5rem;
     width: 25vw;
     height: 4vw;
+    margin: auto;
   
 }
 form fieldset{
@@ -99,4 +102,9 @@ label{
 
 }
 
-  
+ #tak{
+    font-size: 10vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--darkgray);
+    text-align: center;
+ } 
