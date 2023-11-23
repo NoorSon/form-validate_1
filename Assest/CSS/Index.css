@@ -1,0 +1,102 @@
+:root{
+    --black: #333;
+    --White: #eee;
+    --lightblue: #98f0fc;
+    --blue: #2892D0;
+    --darkgray:#313E45;
+    --knapper:#0185D1;
+    --background:#D7D8D8;
+    --checkbox:#0185d16f; 
+    --lightgrey:#eeeeee9d;
+    --red:#ff000022; 
+    --redd:#c20f0f;
+    
+}
+
+body{
+    font-family: sans-serif;
+    color: var(--darkgray);
+    background-color: var(--checkbox);
+    font-weight: 300;
+    width: 50vw;
+    height: 100vw;
+}
+h1{
+    font-weight: 600;
+    font-size: 5vw;
+    color:var(#0185d16f);
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-weight: 200;
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    color: var(--redd);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    padding: 0.5rem;
+    border: 2px solid var(--knapper);
+    border-radius: 0.6rem;
+}
+
+form input, form textarea{
+  color: var(--darkgray);
+  border: 2px solid var(--knapper);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--background);
+  transition: 450ms ease-in-out;  
+}
+form textarea{
+    resize: none;
+}
+form input:nth-child(n+6){
+    background-color: var(--knapper);
+    color: var(--White);
+    font-size: 1.1rem;
+    cursor: pointer;
+   
+}
+form input:nth-child(n+6):hover{
+    color:var(--knapper);
+    background-color:var(--White);
+    transition: 400ms;
+}
+
+input::placeholder{
+    color: var(--darkgray);
+}
+textarea::placeholder{
+    color: var(--darkgray);
+    font-family: sans-serif;
+}
+form button{
+    background-color: var(--knapper);
+    border-radius: 0.5rem;
+    width: 25vw;
+    height: 4vw;
+  
+}
+form fieldset{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+label{
+    background-color: var(--checkbox);
+    margin-bottom: 0.3rem;
+}
+
+.errorMarking{
+    border: solid 2px;
+    border-color: red;
+
+}
+
+  
