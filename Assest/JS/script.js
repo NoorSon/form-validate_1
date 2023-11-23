@@ -1,4 +1,4 @@
-const formparent = document.getElementById('tilmeld')
+const formParent = document.getElementById('tilmeld')
 const myName = document.getElementById('name')
 const myLastname = document.getElementById('lastname')
 const myAdr = document.getElementById('adr')
@@ -21,7 +21,12 @@ myButton.addEventListener('click', (event)=> {
     {
         console.log('formen er udfyldt korrekt');
 
-        formParent.innerHTML = '<h2>tak for tilmeldingen</h2>';
+        formParent.innerHTML = '';
+        
+        let responsElement = document.createElement('h2');
+        responsElement.innerText = 'Tak for tilmelding';
+        responsElement.id = 
+        formParent.appendChild (responsElement); 
     }
     
     else

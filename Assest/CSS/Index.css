@@ -56,14 +56,14 @@ form input, form textarea{
 form textarea{
     resize: none;
 }
-form input:nth-child(n+6){
+form input:nth-child(n+8){
     background-color: var(--knapper);
     color: var(--White);
     font-size: 1.1rem;
     cursor: pointer;
    
 }
-form input:nth-child(n+6):hover{
+form input:nth-child(n+8):hover{
     color:var(--knapper);
     background-color:var(--White);
     transition: 400ms;
